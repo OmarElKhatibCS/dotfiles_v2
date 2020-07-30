@@ -14,7 +14,8 @@ To get a list of files not tracked by git, use `dots untracked` or `dots untrack
 to only show files in a specific subdirectory.
 
 Dead simple!
-
+# Clone and add configs
+do this if you want to add files to the repo , replace repo link with yours
 ### Prequestes 
 you need to install the starship first
 ```bash
@@ -58,8 +59,9 @@ dots ls-files
 dots ls-files .config/polybar/
 ~~~
 
-#### Replication
+# Install on your local machine
 ~~~ sh
+echo "alias dots='git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'" >> $HOME/.bashrc
 git clone --recursive --separate-git-dir=$HOME/.dots.git https://github.com/OmarElKhatibCS/dotfiles_v2.git /tmp/dots
 rsync -rvl --exclude ".git" /tmp/dots/ $HOME/
 rm -r /tmp/dots
