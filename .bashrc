@@ -5,8 +5,8 @@ git_branch() {
 PS1="\[\e[31m\]\$(git_branch)\[\e[m\]"
 export PS1+="\[\e[32m\]in\[\e[m\] \[\e[36m\]\w\[\e[m\]\n\[\e[35m\]>\[\e[m\] \[$(tput sgr0)\]"
 
-if [ -f ~/.bash_profile ]; then
-    source ~/.bash_profile
+if [ -f ~/.aliases ]; then
+    source ~/.aliases
 fi
 
 # >>> conda initialize >>>
