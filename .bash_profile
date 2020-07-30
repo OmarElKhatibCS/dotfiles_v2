@@ -14,9 +14,9 @@ alias la='ls -A'
 alias grep='grep --color=auto'
 alias diff='diff --color=auto'
 # Kubernetes
-alias k = 'kubectl'
-alias mks = 'minikube start'
-alias mksv = 'minikube start --driver=virtualbox'
+alias k='kubectl'
+alias mks='minikube start'
+alias mksv='minikube start --driver=virtualbox'
 # Git
 # ----------------------
 # Git Aliases
