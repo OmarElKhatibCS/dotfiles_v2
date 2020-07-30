@@ -15,7 +15,12 @@ to only show files in a specific subdirectory.
 
 Dead simple!
 
-
+### Prequestes 
+you need to install the starship first
+```bash
+curl -fsSL https://starship.rs/install.sh | bash
+```
+[source](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 #### Alias
 ~~~ sh
 alias dots='git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'
