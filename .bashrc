@@ -34,6 +34,10 @@ export GOPATH=$HOME/Documents/GoProjects/
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/local/lib/pkgconfig
 eval "$(starship init bash)"
+
+# add local to path
+export PATH=$HOME/.local:$HOME/.local/share/applications:$PATH
+
 [[ -s "/etc/profile.d/grc.bashrc" ]] && source /etc/profile.d/grc.bashrc
 export LESSOPEN="| /usr/bin/highlight %s --out-format xterm256 --force"
 # Get color support for 'less'
