@@ -36,7 +36,7 @@ export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig:/usr/share/pkgconfig:
 eval "$(starship init bash)"
 
 # add local to path
-export PATH=$HOME/.local:$HOME/.local/share/applications:$PATH
+export PATH=$HOME/.local/bin:$HOME/.local/share/applications:$PATH
 
 [[ -s "/etc/profile.d/grc.bashrc" ]] && source /etc/profile.d/grc.bashrc
 export LESSOPEN="| /usr/bin/highlight %s --out-format xterm256 --force"
