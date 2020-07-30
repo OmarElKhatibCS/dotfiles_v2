@@ -38,6 +38,7 @@ alias gcl='git clone'
 
 # commit
 alias gam='git commit --amend'
+alias gcm='git commit -m'
 alias gcf='git commit --fixup'
 
 # checkout
