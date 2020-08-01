@@ -22,6 +22,17 @@ you need to install the starship first
 curl -fsSL https://starship.rs/install.sh | bash
 ```
 [source](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+
+install terminator :
+```bash
+sudo apt-get install terminator
+```
+
+install kitty terminal : 
+```bash
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+```
+
 #### Alias
 ~~~ sh
 alias dots='git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'
@@ -62,6 +73,7 @@ dots ls-files .config/polybar/
 # Install on your local machine
 ~~~ sh
 echo "alias dots='git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'" >> $HOME/.bashrc
+source $HOME/.bashrc
 git clone --recursive --separate-git-dir=$HOME/.dots.git https://github.com/OmarElKhatibCS/dotfiles_v2.git /tmp/dots
 rsync -rvl --exclude ".git" /tmp/dots/ $HOME/
 rm -r /tmp/dots
