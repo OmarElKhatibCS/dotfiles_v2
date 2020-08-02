@@ -25,7 +25,6 @@
     foreground_color = "#ebdbb2"
     show_titlebar = False
     scrollback_infinite = True
-    use_system_font = False
 [layouts]
   [[default]]
     [[[child1]]]
@@ -35,4 +34,3 @@
       parent = ""
       type = Window
 [plugins]
-
