@@ -16,12 +16,23 @@ to only show files in a specific subdirectory.
 Dead simple!
 # Clone and add configs
 do this if you want to add files to the repo , replace repo link with yours
-### Prequestes 
-you need to install the starship first
+## Prequestes 
+via Git clone
+
+#### Clone this repository to your home directory.
+
 ```bash
-curl -fsSL https://starship.rs/install.sh | bash
+git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
 ```
-[source](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+
+Add to the ~/.bashrc:
+
+```bash
+if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
+    GIT_PROMPT_ONLY_IN_REPO=1
+    source $HOME/.bash-git-prompt/gitprompt.sh
+fi
+```
 
 install terminator :
 ```bash
