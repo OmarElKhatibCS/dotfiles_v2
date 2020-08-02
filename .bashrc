@@ -33,7 +33,6 @@ export GOROOT=/usr/local/go
 export GOPATH=$HOME/Documents/GoProjects/
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/local/lib/pkgconfig
-eval "$(starship init bash)"
 
 # add local to path
 export PATH=$HOME/.local/bin:$HOME/.local/share/applications:$PATH
