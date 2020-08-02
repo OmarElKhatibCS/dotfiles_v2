@@ -45,3 +45,8 @@ export LESS="--RAW-CONTROL-CHARS"
 # Use colors for less, man, etc.
 [[ -f ~/.config/less/termcap ]] && . ~/.config/less/termcap
 alias dots='git --git-dir=/home/omar/.dots.git/ --work-tree=/home/omar'
+
+if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
+    GIT_PROMPT_ONLY_IN_REPO=1
+    source $HOME/.bash-git-prompt/gitprompt.sh
+fi
