@@ -16,10 +16,11 @@ to only show files in a specific subdirectory.
 Dead simple!
 # Clone and add configs
 do this if you want to add files to the repo , replace repo link with yours
-## Prequestes 
+
+## Prerequisites
 via Git clone
 
-#### Clone this repository to your home directory.
+### Clone this repository to your home directory.
 
 ```bash
 git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
@@ -42,6 +43,12 @@ sudo apt-get install terminator
 install kitty terminal : 
 ```bash
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+```
+
+install rsync - Arch
+```
+pacman -S rsync //arch
+apt-get install rsync //ubuntu
 ```
 
 #### Alias
