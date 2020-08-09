@@ -9,8 +9,8 @@ if [ -f ~/.aliases ]; then
     source ~/.aliases
 fi
 
-set -o vi
-if [ -d "$HOME/bin"  ] ; then
+# set -o vi
+if [-d "$HOME/bin"  ] ; then
       PATH="$PATH:$HOME/bin"
 fi
 
