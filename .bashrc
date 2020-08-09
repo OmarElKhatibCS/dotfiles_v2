@@ -10,7 +10,7 @@ if [ -f ~/.aliases ]; then
 fi
 
 # set -o vi
-if [-d "$HOME/bin"  ] ; then
+if [ -d "$HOME/bin"  ] ; then
       PATH="$PATH:$HOME/bin"
 fi
 
