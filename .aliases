@@ -5,6 +5,7 @@ alias au="sudo apt-get update"
 alias aug="sudo apt-get upgrade"
 alias ar="sudo apt-get --purge remove"
 alias rm='rm -i'
+alias rmf='rm -rf'
 alias cp='cp -i'
 alias mv='mv -i'
 alias ls='ls --sort=extension --color=auto'
@@ -13,14 +14,16 @@ alias lal='ls -alh'
 alias la='ls -A'
 alias grep='grep --color=auto'
 alias diff='diff --color=auto'
+
 # Kubernetes
 alias k='kubectl'
 alias mks='minikube start'
 alias mksv='minikube start --driver=virtualbox'
-# Git
+
 # ----------------------
 # Git Aliases
 # ----------------------
+
 # add
 alias ga='git add'
 alias gaa='git add --all'
@@ -37,7 +40,8 @@ alias gbd='git branch --delete '
 alias gcl='git clone'
 
 # commit
-alias gam='git commit --amend'
+alias gca='git commit --amend'
+alias gcam='git commit --amend -m'
 alias gcm='git commit -m'
 alias gcf='git commit --fixup'
 
