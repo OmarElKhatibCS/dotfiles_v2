@@ -14,6 +14,8 @@
   page_down = <Alt>j
   next_tab = <Primary>Tab
   prev_tab = <Primary><Shift>Tab
+  reset = <Primary><Alt>r
+  reset_clear = <Primary><Alt>g
   layout_launcher = <Primary><Alt>backslash
 [profiles]
   [[default]]
@@ -21,15 +23,17 @@
     background_darkness = 1.0
     background_type = transparent
     cursor_color = "#aaaaaa"
-    font = Operator Mono Lig weight=330 14
+    font = Fira Code 14
     foreground_color = "#ebdbb2"
     show_titlebar = False
     scrollback_infinite = True
+    use_system_font = False
 [layouts]
   [[default]]
     [[[child1]]]
       parent = window0
       type = Terminal
+      profile = default
     [[[window0]]]
       parent = ""
       type = Window
