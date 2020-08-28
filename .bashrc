@@ -19,7 +19,7 @@ fi
 
 # Use colors for less, man, etc.
 [[ -f ~/.config/less/termcap ]] && . $HOME/.config/less/termcap
-alias dots='git --git-dir=/home/omar/.dots.git/ --work-tree=/home/omar'
+alias dots='git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'
 
 if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
     GIT_PROMPT_ONLY_IN_REPO=1
