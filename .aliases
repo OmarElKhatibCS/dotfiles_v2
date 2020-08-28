@@ -15,6 +15,11 @@ alias la='ls -A'
 alias grep='grep --color=auto'
 alias diff='diff --color=auto'
 
+# vim
+alias v="nvim"
+alias vi="nvim"
+alias vim="nvim"
+
 # Kubernetes
 alias k='kubectl'
 alias mks='minikube start'
