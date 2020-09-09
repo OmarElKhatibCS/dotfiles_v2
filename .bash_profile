@@ -25,3 +25,6 @@ export PATH=$HOME/.local/bin:$HOME/.local/share/applications:$PATH
 export LESSOPEN="| /usr/bin/highlight %s --out-format xterm256 --force"
 # Get color support for 'less'
 export LESS="--RAW-CONTROL-CHARS"
+
+# kitty auto complete
+source <(kitty + complete setup bash)
