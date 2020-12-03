@@ -14,6 +14,10 @@ alias lal='ls -alh'
 alias la='ls -A'
 alias grep='grep --color=auto'
 alias diff='diff --color=auto'
+alias cat='~/.local/bin/cat.sh'
+
+# helpers
+alias rmtut='find ./ -type f \( -name "Join With Us On Telegram - Copy.url" -o -name "Join With Us On Telegram.url" -o -name "tutflix.com.url" -o -name "Help TutFlix Community.txt" -o -name "More Course Materials.txt" \) -exec rm -rf {} + && find ./ -type d -name "00. TUTFLIX.IO - Free Education*" -exec rm -rf {} +'
 
 # vim
 alias v="nvim"
