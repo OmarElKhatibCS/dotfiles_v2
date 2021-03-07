@@ -44,5 +44,9 @@ if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
+# Use my custom exports
+if [ -f ~/.exports ]; then
+    . ~/.exports
+fi
 # Always remember to antigen apply!! 🤗🤗
 antigen apply
