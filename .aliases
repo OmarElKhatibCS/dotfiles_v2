@@ -128,3 +128,6 @@ alias glogl='git log --all --grep="$1"'
 alias gshow='git show'
 
 ## end of git aliases
+
+# dots to github
+alias dots='git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'
