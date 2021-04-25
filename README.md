@@ -42,6 +42,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 source ~/.zshrc
 ```
 
+to display fonts correctly please install [Noto Color Emoji](https://www.google.com/get/noto/#emoji-zsye-color) by putting it in `~/.fonts` then
+```bash
+fc-cache -f -v
+```
+
 install terminator :
 ```bash
 sudo apt-get install terminator
