@@ -33,11 +33,7 @@ antigen bundle voronkovich/gitignore.plugin.zsh
 antigen bundle zdharma/zsh-diff-so-fancy
 
 # Let's add a theme! 
-if [[ $INSIDE_EMACS ]]; then
-    antigen theme robbyrussell
-else
-    antigen theme therzka/zemoji # A cool emoji based theme! 
-fi
+antigen theme amuse 
 
 # Use my old bash Aliases
 if [ -f ~/.aliases ]; then
