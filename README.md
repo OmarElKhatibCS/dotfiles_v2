@@ -40,6 +40,7 @@ I moved to zsh , to install zsh
 sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 source ~/.zshrc
+curl -L git.io/antigen > antigen.zsh
 ```
 
 to display fonts correctly please install [Noto Color Emoji](https://www.google.com/get/noto/#emoji-zsye-color) by putting it in `~/.fonts` then
