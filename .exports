@@ -1,6 +1,5 @@
 # GO exports
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/Documents/GoProjects/
+export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/local/lib/pkgconfig
 
